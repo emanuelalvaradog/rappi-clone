@@ -1,0 +1,257 @@
+:root {
+  --h3size: 1.4rem;
+  --h1size: 2.4rem;
+  --greenbtn: rgba(0, 212, 28, 0.911);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.header-logo {
+  display: block;
+  padding-left: 2rem;
+}
+.header-logo img {
+  width: 69.3px;
+  height: 29.5px;
+}
+.header-buttons {
+  display: flex;
+  flex-direction: row;
+  padding-right: 0.5rem;
+}
+.header-buttons h3 {
+  margin: 0 0.4rem;
+}
+.header-buttons-ingresar {
+  padding: 0.8rem 1.7rem;
+  background-color: rgb(255, 72, 0);
+  border-radius: 0.8rem;
+  color: white;
+  font-size: var(--h3size);
+}
+.header-buttons-registrarme {
+  padding: 0.8rem 1.7rem;
+  background-color: rgba(37, 172, 3, 0.993);
+  border-radius: 0.8rem;
+  color: white;
+  font-size: var(--h3size);
+}
+
+/* SEARCH */
+.container {
+  width: 100%;
+  height: 100%;
+}
+.container-search {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.container-search h1 {
+  text-align: center;
+  font-size: var(--h1size);
+}
+.container-search-input {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.container-search-input-txt {
+  background-color: rgb(243, 243, 243);
+  border: 0;
+  height: 4.5rem;
+  border-radius: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.container-search-input h3 {
+  background-color: rgba(3, 172, 59, 0.61);
+  font-size: 1.4rem;
+  color: white;
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+/* HASHTAGS */
+.container-food-wrapper {
+  width: 100%;
+  min-height: auto;
+  display: flex;
+  height: 10rem;
+  margin-top: 5rem;
+}
+.container-food-wrapper ul {
+  width: 100%;
+  height: 7rem;
+  display: inline-flex;
+  list-style: none;
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+  justify-content: center;
+  color: rgb(180, 180, 180);
+  padding: 0 1.5rem;
+  font-weight: bold;
+}
+.container-food-wrapper li {
+  margin: 0 1rem;
+}
+
+/* TIENDAS */
+.container-stores {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container-stores-restaurant-txt {
+  background-color: rgb(216, 117, 104);
+  position: relative;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: var(--h1size);
+  margin-top: -4px;
+}
+.container-stores-restaurant img {
+  width: 110%;
+  height: 100%;
+  position: relative;
+  left: -25px;
+}
+
+.container-stores-market img {
+  width: 130%;
+  height: 110%;
+  position: relative;
+  left: -80px;
+}
+.container-stores-market-txt {
+  background-color: rgba(56, 190, 74, 0.911);
+  position: relative;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: var(--h1size);
+  margin-top: -4px;
+}
+
+.container-stores-stores img {
+  width: 120%;
+  height: 373px;
+  object-fit: cover;
+  position: relative;
+  left: -80px;
+}
+.container-stores-stores-txt {
+  background-color: rgba(45, 87, 202, 0.911);
+  position: relative;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: var(--h1size);
+  margin-top: -4px;
+}
+
+.container-benefits {
+  width: 100%;
+}
+.container-benefits-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(252, 252, 252);
+}
+.container-benefits-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2.5rem 3rem;
+}
+
+.container-benefits-content-img {
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: white;
+  box-shadow: -2px 6px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-benefits-content-img1 {
+  width: 5.5rem;
+  height: 4.5rem;
+  background-color: white;
+  box-shadow: -2px 6px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-benefits-content-img1 img {
+  width: 30px;
+  height: 30px;
+}
+.container-benefits-content-img img {
+  width: 30px;
+  height: 30px;
+}
+.container-benefits-content p {
+  padding-left: 2rem;
+  font-size: 1.3rem;
+}
+
+.container-restaurantlogos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2rem;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.container-restaurantlogos-logo img {
+  width: 120px;
+  height: 120px;
+}
+.container-restaurantlogos-logo {
+  margin: 1rem;
+}
+
+.container-primebenefits {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  margin-top: 3rem;
+  width: 100%;
+}
+.container-primebenefits-txt img {
+    
+}
