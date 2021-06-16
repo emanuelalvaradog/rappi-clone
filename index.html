@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Pide a Domicilio y Recibe tu pedido</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <!-- HEADER -->
     <header class="header">
       <div class="header-logo">
         <img src="./img/rappi.svg" alt="logorappi" />
@@ -17,18 +18,21 @@
         <h3 class="header-buttons-registrarme">Registrarme</h3>
       </div>
     </header>
+    <!-- CONTENT -->
     <main class="container">
+      
+      <!-- SEARCH -->
       <div class="container-search">
         <h1>Encuentra lo que necesitas</h1>
         <div class="container-search-input">
-          <input
-            type="text"
-            class="container-search-input-txt"
+          <input type="text" class="container-search-input-txt"
             placeholder="Ingresa tu dirección..."
           />
           <h3>Ir</h3>
         </div>
       </div>
+
+      <!-- HASHTAGS -->
       <section class="container-food-wrapper">
         <ul>
           <li>#pizza</li>
@@ -40,6 +44,8 @@
           <li>#kfc</li>
         </ul>
       </section>
+
+      <!-- IMAGE SECTIONS -->
       <section class="container-stores">
         <div class="container-stores-restaurant">
           <img src="./img/RESTAURANTS.jpeg" alt="Restaurantes" />
@@ -70,7 +76,7 @@
           </div>
           <div class="container-benefits-content">
             <div class="container-benefits-content-img">
-              <img src="./img/wallet.svg" alt="location"/>
+              <img src="./img/wallet.svg" alt="location" />
             </div>
             <p>Un shopper selecciona tus productos con amor</p>
           </div>
@@ -106,23 +112,23 @@
         <div class="container-primebenefits-txt">
           <img src="./img/logos_rappiprime.svg" alt="rappiprime" />
           <ul>
-            <li>
-              <h4>Envíos gratis</h4>
+            <li class="container-primebenefits-txt-1">
+              <h3>Envíos gratis</h3>
               <p>
                 Envíos GRATIS en compras mayores a $139 pagando con tarjeta de
                 crédito
               </p>
             </li>
-            <li class="sp">
-              <h4>Soporte Premium</h4>
+            <li class="container-primebenefits-txt-2">
+              <h3>Soporte Premium</h3>
               <p>Soporte premium exclusivo 24/7 para usuarios prime</p>
             </li>
-            <li class="r8">
-              <h4>Regalo de $85</h4>
+            <li class="container-primebenefits-txt-3">
+              <h3>Regalo de $85</h3>
               <p>Una vez al mes recibe este regalo en una sección especial</p>
             </li>
-            <li class="oe">
-              <h4>Ofertas exclusivas</h4>
+            <li class="container-primebenefits-txt-4">
+              <h3>Ofertas exclusivas</h3>
               <p>Ofertas únicas para usuarios Prime todos los meses</p>
             </li>
           </ul>
@@ -130,7 +136,9 @@
         <div class="container-primebenefits-img">
           <img src="./img/pay.png" alt="rappiprime" />
         </div>
-        <p>Probar ahora</p>
+        <div class="container-primebenefits-btn">
+          <p>Probar ahora</p>
+        </div>
       </section>
     </main>
     <footer class="footer-container">
@@ -170,8 +178,8 @@
         <div class="footer-3">
           <h3>Descarga la app</h3>
           <ul>
-            <li><img src="./img/apple-store.svg" alt="apple store" /></li>
-            <li><img src="./img/play-store.png" alt="play-store" /></li>
+            <li><img src="./img/apple-store.svg" alt="apple store" class="applestore"/></li>
+            <li><img src="./img/play-store.png" alt="play store" class="playstore"/></li>
           </ul>
         </div>
       </div>

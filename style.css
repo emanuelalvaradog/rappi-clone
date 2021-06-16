@@ -1,8 +1,10 @@
 :root {
-  --h3size: 1.4rem;
+  --h3size: 1.5rem;
   --h1size: 2.4rem;
   --greenbtn: rgba(0, 212, 28, 0.911);
+  --greycolor: rgb(117, 117, 117);
 }
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -25,7 +27,7 @@ html {
 }
 .header-logo {
   display: block;
-  padding-left: 2rem;
+  padding-left: 1.5rem;
 }
 .header-logo img {
   width: 69.3px;
@@ -44,14 +46,14 @@ html {
   background-color: rgb(255, 72, 0);
   border-radius: 0.8rem;
   color: white;
-  font-size: var(--h3size);
+  font-size: 1.3rem;
 }
 .header-buttons-registrarme {
   padding: 0.8rem 1.7rem;
-  background-color: rgba(37, 172, 3, 0.993);
+  background-color: rgba(55, 175, 25, 0.993);
   border-radius: 0.8rem;
   color: white;
-  font-size: var(--h3size);
+  font-size: 1.3rem;
 }
 
 /* SEARCH */
@@ -117,6 +119,7 @@ html {
 }
 .container-food-wrapper li {
   margin: 0 1rem;
+  font-weight: 600;
 }
 
 /* STORES */
@@ -137,17 +140,15 @@ html {
   margin-top: -4px;
 }
 .container-stores-restaurant img {
-  width: 110%;
-  height: 100%;
+  width: 100%;
+  height: auto%;
   position: relative;
-  left: -25px;
 }
 
 .container-stores-market img {
-  width: 130%;
-  height: 110%;
+  width: 100%;
+  height: auto
   position: relative;
-  left: -80px;
 }
 .container-stores-market-txt {
   background-color: rgba(56, 190, 74, 0.911);
@@ -162,11 +163,8 @@ html {
 }
 
 .container-stores-stores img {
-  width: 120%;
-  height: 373px;
-  object-fit: cover;
-  position: relative;
-  left: -80px;
+  width: 100%;
+  height: auto;
 }
 .container-stores-stores-txt {
   background-color: rgba(45, 87, 202, 0.911);
@@ -233,6 +231,7 @@ html {
   color: rgb(117, 117, 117);
 }
 
+/* Restaurant Logos */
 .container-restaurantlogos {
   display: flex;
   flex-direction: row;
@@ -240,6 +239,7 @@ html {
   padding: 2rem;
   justify-content: center;
   margin-top: 4rem;
+  margin-bottom: 3rem;
 }
 .container-restaurantlogos-logo img {
   width: 120px;
@@ -249,13 +249,102 @@ html {
   margin: 1rem;
 }
 
+/* PRIME BENEFITS */
 .container-primebenefits {
   display: flex;
   flex-direction: column;
-  padding: 4rem;
-  margin-top: 3rem;
+  padding: 3rem;
   width: 100%;
 }
-.container-primebenefits-txt img {
-    
+.container-primebenefits img {
+  margin-bottom: 4rem;
+}
+
+.container-primebenefits-txt li {
+  margin-bottom: 4rem;
+}
+.container-primebenefits-txt li h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: rgb(44, 44, 44);
+  margin-bottom: 1rem;
+  position: relative;
+  bottom: 0.8rem;
+}
+.container-primebenefits-txt ul {
+  padding-left: 2.7rem;
+}
+.container-primebenefits-txt-1 {
+  list-style-image: url("./img/li1.svg");
+}
+.container-primebenefits-txt-2 {
+  list-style-image: url("./img/li2.svg");
+}
+.container-primebenefits-txt-3 {
+  list-style-image: url("./img/li3.svg");
+}
+.container-primebenefits-txt-4 {
+  list-style-image: url("./img/li4.svg");
+}
+.container-primebenefits-txt p {
+  font-size: 1.3rem;
+  font-weight: lighter;
+  color: rgb(112, 112, 112);
+}
+.container-primebenefits-img {
+  width: 100%;
+}
+.container-primebenefits-img img {
+  width: 100%;
+  height: auto;
+}
+.container-primebenefits-btn {
+  background-color: rgba(3, 172, 59, 0.61);
+  height: 4rem;
+  border-radius: 1rem;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  font-size: var(--h3size);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* FOOTER */
+.footer-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  background-color: rgb(245, 245, 245);
+}
+.footer-wrapper {
+  list-style: none;
+}
+.footer-wrapper ul {
+  list-style: none;
+  margin-bottom: 3rem;
+}
+.footer-wrapper li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: rgb(112, 112, 112);
+}
+.footer-wrapper h3 {
+  list-style: none;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+.footer-3 li{
+  list-style: none;
+}
+.footer-3 img{
+  width: 50%;
+  height: auto;
+}
+.playstore{
+  border-image: none;
 }
