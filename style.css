@@ -141,13 +141,13 @@ html {
 }
 .container-stores-restaurant img {
   width: 100%;
-  height: auto%;
+  height: auto;
   position: relative;
 }
 
 .container-stores-market img {
   width: 100%;
-  height: auto
+  height: auto;
   position: relative;
 }
 .container-stores-market-txt {
