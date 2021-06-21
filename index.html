@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pide a Domicilio y Recibe tu pedido</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="icon" type="image/png" href="./img/rappi_app_icon.png">
+    <link rel="stylesheet" href="./mobile.css"/>
+    <link rel="stylesheet" href="./tablet.css" media="screen and (min-width: 425px")/>
+    <link rel="stylesheet" href="./tablet.css" media="screen and (min-width: 800px")/>
+    <link rel="icon" type="image/png" href="./img/rappi_app_icon.png" />
   </head>
   <body>
     <!-- HEADER -->
@@ -21,12 +23,13 @@
     </header>
     <!-- CONTENT -->
     <main class="container">
-      
       <!-- SEARCH -->
       <div class="container-search">
         <h1>Encuentra lo que necesitas</h1>
         <div class="container-search-input">
-          <input type="text" class="container-search-input-txt"
+          <input
+            type="text"
+            class="container-search-input-txt"
             placeholder="Ingresa tu dirección..."
           />
           <h3>Ir</h3>
@@ -187,8 +190,20 @@
         <div class="footer-3">
           <h3>Descarga la app</h3>
           <ul>
-            <li><img src="./img/apple-store.svg" alt="apple store" class="applestore"/></li>
-            <li><img src="./img/play-store.png" alt="play store" class="playstore"/></li>
+            <li>
+              <img
+                src="./img/apple-store.svg"
+                alt="apple store"
+                class="applestore"
+              />
+            </li>
+            <li>
+              <img
+                src="./img/play-store.png"
+                alt="play store"
+                class="playstore"
+              />
+            </li>
           </ul>
         </div>
       </div>
