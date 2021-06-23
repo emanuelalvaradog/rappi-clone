@@ -1,0 +1,88 @@
+/* HEADER */
+
+.header-logo {
+  padding-left: 2rem;
+}
+.header-buttons {
+  padding-right: 2rem;
+}
+
+/* SEARCH */
+
+.container-search-input {
+  margin-top: 1rem;
+  flex-direction: row;
+}
+.container-search-input-txt {
+  width: 70%;
+}
+.container-search-input h3 {
+  width: 15%;
+  margin-left: 1.5rem;
+}
+
+/* IMAGE CONTAINER */
+.container-stores {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container-stores-restaurant,
+.container-stores-market,
+.container-stores-stores {
+  width: 34%;
+}
+
+.container-stores-restaurant img,
+.container-stores-market img,
+.container-stores-stores img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+
+/* BENEFITS */
+.container-benefits-wrapper {
+  padding: 4rem 0;
+  flex-direction: row;
+}
+.container-benefits-content-img {
+  width: 50%;
+}
+
+/* LOGOS */
+.container-restaurantlogos {
+  padding: 4rem;
+}
+
+/* PRIME */
+.container-primebenefits {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  padding: 3rem;
+  align-items: center;
+}
+.container-primebenefits-txt {
+  width: 60%;
+  margin-bottom: 4rem;
+  order: 1;
+}
+.container-primebenefits-img {
+  width: 40%;
+  order: 3;
+}
+.container-primebenefits-btn {
+  background-color: rgba(3, 172, 59, 0.61);
+  height: 4rem;
+  border-radius: 1rem;
+  width: 50%;
+  text-align: center;
+  font-size: var(--h3size);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  order: 2;
+  position: absolute;
+}
