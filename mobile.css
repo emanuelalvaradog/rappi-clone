@@ -28,6 +28,7 @@ html {
 .header-logo {
   display: block;
   padding-left: 1.5rem;
+  cursor: pointer;
 }
 .header-logo img {
   width: 69.3px;
@@ -48,6 +49,7 @@ html {
   border-radius: 0.8rem;
   color: white;
   font-size: 1.3rem;
+  cursor: pointer;
 }
 .header-buttons-registrarme {
   padding: 0.8rem 1.7rem;
@@ -55,6 +57,7 @@ html {
   border-radius: 0.8rem;
   color: white;
   font-size: 1.3rem;
+  cursor: pointer;
 }
 
 /* SEARCH */
@@ -87,7 +90,9 @@ html {
   padding-left: 1.5rem;
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
+  outline: none;
 }
+
 .container-search-input h3 {
   background-color: rgba(3, 172, 59, 0.61);
   font-size: 1.4rem;
@@ -97,6 +102,7 @@ html {
   justify-content: center;
   align-items: center;
   border-radius: 1.5rem;
+  cursor: pointer;
 }
 
 /* HASHTAGS */
@@ -145,17 +151,20 @@ html {
   width: 100%;
   height: auto;
   position: relative;
+  cursor: pointer;
 }
 
 .container-stores-market img {
   width: 100%;
   height: auto;
   position: relative;
+  cursor: pointer;
 }
 
 .container-stores-stores img {
   width: 100%;
   height: auto;
+  cursor: pointer;
 }
 .container-stores-market-txt {
   background-color: rgba(56, 190, 74, 0.911);
@@ -263,16 +272,16 @@ html {
 .container-primebenefits-txt ul {
   padding-left: 2.7rem;
 }
-.container-primebenefits-txt-1{
+.container-primebenefits-txt-1 {
   list-style-image: url("./img/li1.svg");
 }
-.container-primebenefits-txt-2{
+.container-primebenefits-txt-2 {
   list-style-image: url("./img/li2.svg");
 }
-.container-primebenefits-txt-3{
+.container-primebenefits-txt-3 {
   list-style-image: url("./img/li3.svg");
 }
-.container-primebenefits-txt-4{
+.container-primebenefits-txt-4 {
   list-style-image: url("./img/li4.svg");
 }
 .container-primebenefits-txt p {
@@ -296,6 +305,7 @@ html {
   justify-content: center;
   align-items: center;
   color: white;
+  cursor: pointer;
 }
 
 /* FOOTER */
@@ -318,19 +328,20 @@ html {
   margin-bottom: 0.7rem;
   font-size: 1.2rem;
   color: rgb(112, 112, 112);
+  cursor: pointer;
+  width: fit-content;
 }
+.footer-wrapper li:hover {
+  text-decoration: underline;
+}
+
 .footer-wrapper h3 {
   list-style: none;
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
 }
-.footer-3 li {
-  list-style: none;
+
+.applestore{
+  width: 200%;
 }
-.footer-3 img {
-  width: 50%;
-  height: auto;
-}
-.playstore {
-  border-image: none;
-}
+
