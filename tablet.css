@@ -86,3 +86,8 @@
   position: absolute;
   align-self: flex-end;
 }
+
+
+.footer-3 img{
+  width: 50%;
+}

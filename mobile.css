@@ -329,7 +329,7 @@ html {
   font-size: 1.2rem;
   color: rgb(112, 112, 112);
   cursor: pointer;
-  width: fit-content;
+  width: 50%;
 }
 .footer-wrapper li:hover {
   text-decoration: underline;
@@ -341,7 +341,6 @@ html {
   font-size: 1.5rem;
 }
 
-.applestore{
-  width: 200%;
+.footer-3 img{
+  width: 80%;
 }
-
